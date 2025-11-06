@@ -88,6 +88,10 @@ To dar ra baz kardi
     elif choice == "2":
         samt_left_rahro()
 
+    else:
+        print('Error')
+        samt_dar()    
+
 def samt_right_rahro():
     type_print("""
 To be samt right rahro rafti (ashpazkhane)
@@ -99,6 +103,11 @@ To be samt right rahro rafti (ashpazkhane)
     if choice == "1":
         type_print("to ab ra khordi va mordi :)")
         quit()
+
+    else:
+        print('Error')
+        samt_right_rahro()
+    
     
 
 def samt_left_rahro():
@@ -112,6 +121,10 @@ To be samt left rahro rafti (bathroom)
     if choice == '1':
         type_print('to dar bathroom ra baz kardi va ba kale be zamin khordi va mordi :)')
         quit()
+
+    else:
+        print('Error')
+        samt_left_rahro()    
 
 def samt_laptop():
     type_print("""
@@ -134,6 +147,10 @@ To be samt laptop rafti va laptop ra baz kardi
     elif choice == "3":
         type_print("to email haye ersal shode ra baz kardi va pashmat rikht va mordi :)")
         quit()
+
+    else:
+        print('Error')
+        samt_laptop()
 
 
 
